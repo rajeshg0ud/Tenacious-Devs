@@ -26,8 +26,8 @@ function ContactUs() {
 
   return (
     <div id='Contact' className="py-16 flex flex-col md:justify-between md:flex-row bg-gray-100 mx-auto px-4 md:px-52">
-      <div className="flex flex-col items-center md:items-start text-center md:text-left mb-6 md:mb-0">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">Contact Us</h1>
+      <div className="flex flex-col items-center md:items-start md:text-left mb-6 md:mb-0">
+        <h1 className="text-2xl md:text-4xl self-start ml-8 md:ml-0 font-bold mb-4 ">Contact Us</h1>
         <img
           src={contactImg}
           alt="Contact"
@@ -36,10 +36,10 @@ function ContactUs() {
       </div>
       <div className=" flex flex-col justify-center space-y-6">
         <div>
-          <p className="text-lg font-semibold text-center mb-2 mt-4 md:mt-0">
+          <p className="text-lg font-semibold text-gray-600 text-center mb-2 mt-4 md:mt-0">
             Ready to start your project or have questions? Reach out to us today!
           </p>
-          <p className="text-lg mb-1">
+          <p className="text-lg mb-1  mt-10 md:mt-0">
             <span className="font-bold">Office:</span> Madhapur, Hyderabad, Telangana
           </p>
           <p className="text-lg mb-1">

@@ -11,7 +11,7 @@ function Splice() {
   </div>
 
   <div className='relative z-10 -mt-24 mx-auto backdrop-blur-lg'>
-  <h1 className='text-[27px] md:text-[66px] font-bold bg-gradient-to-r from-sky-600 to-sky-700 bg-clip-text text-transparent brightness-110 carter-one-regular'>
+  <h1 className='text-[23.2px] md:text-[66px] font-bold bg-gradient-to-r from-sky-600 to-sky-700 bg-clip-text text-transparent brightness-110 carter-one-regular'>
     We Grow Brands Online
 </h1>
 <p className=' text-base md:text-xl font-extrabold bg-gradient-to-r from-gray-700 to-gray-800 bg-clip-text text-transparent brightness-105 vollkorn'>
