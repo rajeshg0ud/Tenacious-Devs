@@ -15,7 +15,7 @@ function Splice() {
     We Grow Brands Online
 </h1>
 <p className=' text-base md:text-xl font-extrabold bg-gradient-to-r from-gray-700 to-gray-800 bg-clip-text text-transparent brightness-105 vollkorn'>
-Developing Custom Websites & Comprehensive Branding Solutions.</p>
+Custom Websites & Tailored Branding Solutions.</p>
 </div>
 
    
