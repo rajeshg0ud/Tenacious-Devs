@@ -5,7 +5,7 @@ import SwiggyImg from '../Assets/project/swiggy.png';
 function Projects() {
   return (
     <div id='Projects' className="py-16 bg-white md:px-52">
-      <h3 className="text-2xl md:text-4xl font-bold mb-6 mx-auto ml-12 md:ml-0">Latest Projects</h3>
+      <h3 className="text-2xl md:text-4xl font-bold mb-12 mx-auto ml-12 md:ml-0 ">Latest Projects</h3>
       <div className="container mx-auto px-4 flex justify-center">
         <div className="flex overflow-x-scroll md:overflow-x-hidden space-x-4 pb-4">
           <div className="flex-shrink-0 w-full max-w-[549px] bg-white cursor-pointer rounded-lg">
