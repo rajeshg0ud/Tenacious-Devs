@@ -1,7 +1,6 @@
 import React from 'react';
 import bgHome from '../Assets/19366.jpg';
-import Slice from '../Assets/splice.png';
-
+ 
 function Splice() {
   return (
 <div id='Home' className='relative flex justify-between items-center mt-[85px] h-[320px] md:h-[429px]  mx-auto bg-cover bg-center py-10 px-4 md:p-10  text-center'>

@@ -35,7 +35,7 @@ function ContactUs() {
   };
 
   return (
-    <div id='Contact' className="py-16 flex flex-col md:justify-between md:flex-row bg-gray-100 mx-auto px-4 md:px-52">
+    <div id='Contact' className="py-16 flex flex-col md:justify-between md:flex-row bg-zinc-50 mx-auto px-4 md:px-52">
       <div className="flex flex-col items-center md:items-start md:text-left mb-6 md:mb-0">
         <h1 className="text-2xl md:text-4xl self-start ml-8 md:ml-0 font-bold mb-4">Contact Us</h1>
         <img
@@ -44,7 +44,7 @@ function ContactUs() {
           className="w-72 md:w-[360px] h-auto"
         />
       </div>
-      <div className="flex flex-col justify-center space-y-6">
+      <div className="flex flex-col justify-center space-y-6 bg-white rounded-lg p-5 md:p-9 shadow-md">
         <div>
           <p className="text-lg font-semibold text-gray-600 text-center mb-2 mt-4 md:mt-0">
             Ready to start your project or have questions? Reach out to us today!

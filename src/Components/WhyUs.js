@@ -4,7 +4,7 @@ import serviceImage from '../Assets/whyUs.png';
 
 function WhyUs() {
   return (
-    <div id='Services' className="flex flex-col md:flex-row justify-between md:px-52 items-center p-8 bg-gray-100">
+    <div id='Services' className="flex flex-col md:flex-row justify-between md:px-52 items-center p-8 bg-zinc-50 ">
       <div className="max-w-md mb-7 md:mb-1">
         <h2 className="text-2xl md:text-4xl font-bold mb-6">Why Us?</h2>
         <ul className='text-base'>
