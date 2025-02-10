@@ -3,7 +3,7 @@ import { FaLinkedin, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-4 md:px-52">
+    <footer className="bg-gray-800 text-white py-4 md:px-24">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <p className="text-sm">&copy; {new Date().getFullYear()} Tenacious Devs. All rights reserved.</p>
         <div className="flex space-x-4 mt-2 md:mt-0">
