@@ -50,7 +50,7 @@ function ContactUs() {
       id="Contact"
       className=" flex flex-col md:justify-between md:flex-row bg-gray-50 mx-auto px-4 md:px-24 items-center p-8 py-20 "
     >
-      <div className="flex flex-col items-center md:items-start md:text-left max-w-6xl mb-7 md:mb-0">
+      <div className="flex flex-col items-center md:items-start md:text-left md:self-baseline max-w-6xl mb-7 md:mb-0">
         <h2 className="text-xl md:text-3xl font-bold mb-12 -ml-5 md:ml-0 text-left pb-5 self-start">
           Contact Us
         </h2>
