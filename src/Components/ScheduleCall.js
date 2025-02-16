@@ -11,10 +11,10 @@ function ScheduleCall() {
     <div className=" text-center py-20 bg-gray-50 mx-auto flex justify-center  px-4 md:px-24">
       <div className="flex  flex-col md:flex-row ">
         <div className="flex flex-col justify-center max-w-6xl mb-7 md:mb-0">
-          <h2 className="text-2xl md:text-3xl font-bold mb-12ml-12 md:ml-0 text-left pb-5">
+          <h2 className="text-xl md:text-3xl font-bold mb-12ml-12 md:ml-0 text-left pb-5">
             Let’s Bring Your Project to Life — Schedule a Free Call!
           </h2>
-          <p className="mb-6 text-lg text-gray-700 text-left">
+          <p className="mb-6 text-base md:text-lg text-gray-700 text-left">
             Ready to make your ideas a reality? Book a free consultation with us
             today to discuss your project and discover how we can help you grow
             your brand online. We’ll offer expert guidance, actionable insights,

@@ -8,10 +8,10 @@ function WhyUs() {
       className="flex flex-col mx-auto items-center p-8 py-20 md:px-24 bg-gray-100"
     >
       <div className="max-w-6xl mb-7 md:mb-0">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6">
+        <h2 className="text-xl md:text-3xl font-bold mb-6">
           Why Choose Us? Elevate Your Digital Presence.
         </h2>
-        <p className="mb-6 text-lg text-gray-700">
+        <p className="mb-6 text-base md:text-lg text-gray-700">
           We fuse creativity, expertise, and cutting-edge technology to craft
           websites, applications, and digital experiences that drive your
           business forward. Our mission? To create digital solutions that not

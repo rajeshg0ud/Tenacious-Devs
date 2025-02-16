@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div id="Projects" className="py-16 bg-gray-100 md:px-24 mx-auto">
       <div className="  max-w-6xl mb-7 md:mb-0 ">
-        <h2 className="text-2xl md:text-3xl font-bold mb-12ml-12 md:ml-0 text-left pb-5">
+        <h2 className="text-xl md:text-3xl font-bold mb-12ml-12 md:ml-0 text-left pb-5">
           Latest Projects
         </h2>
         <div className="container  px-4 flex justify-center">
