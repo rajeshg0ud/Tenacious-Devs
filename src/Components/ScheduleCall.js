@@ -8,7 +8,7 @@ function ScheduleCall() {
   );
 
   return (
-    <div className=" text-center py-20 bg-gray-50 mx-auto flex justify-center  px-4 md:px-24">
+    <div className=" text-center py-20 bg-gray-50  flex justify-center  px-8 md:px-24  mx-auto items-center p-8 ">
       <div className="flex  flex-col md:flex-row ">
         <div className="flex flex-col justify-center max-w-6xl mb-7 md:mb-0">
           <h2 className="text-xl md:text-3xl font-bold mb-12ml-12 md:ml-0 text-left pb-5">
