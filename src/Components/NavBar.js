@@ -21,25 +21,25 @@ function NavBar() {
           className="hover:text-sky-600 text-[16px] md:text-[16.5px]  cursor-pointer"
           onClick={() => scrollDownTo("Home")}
         >
-          Home
+          HOME
         </h1>
         <h1
           className="hover:text-sky-600 text-[16px] md:text-[16.5px] cursor-pointer"
           onClick={() => scrollDownTo("Services")}
         >
-          Services
+          SERVICES
         </h1>
         <h1
           className="hover:text-sky-600 text-[16px] md:text-[16.5px] cursor-pointer"
           onClick={() => scrollDownTo("Projects")}
         >
-          Projects
+          PROJECTS
         </h1>
         <h1
           className="hover:text-sky-600 text-[16px] md:text-[16.5px] cursor-pointer"
           onClick={() => scrollDownTo("Contact")}
         >
-          Contact
+          CONTACT US
         </h1>
       </div>
     </nav>

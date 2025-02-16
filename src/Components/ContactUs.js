@@ -51,7 +51,7 @@ function ContactUs() {
       className=" flex flex-col md:justify-between md:flex-row bg-gray-50 mx-auto px-4 md:px-24 items-center p-8 py-20 "
     >
       <div className="flex flex-col items-center md:items-start md:text-left max-w-6xl mb-7 md:mb-0">
-        <h2 className="text-xl md:text-3xl font-bold mb-12ml-12 md:ml-0 text-left pb-5">
+        <h2 className="text-xl md:text-3xl font-bold mb-12 -ml-5 md:ml-0 text-left pb-5 self-start">
           Contact Us
         </h2>
         <img
@@ -87,6 +87,7 @@ function ContactUs() {
             type="text"
             placeholder="Your Name"
             value={formData.name}
+            required
           />
           <input
             className="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-500"
@@ -96,6 +97,7 @@ function ContactUs() {
             type="text"
             placeholder="Your Email"
             value={formData.email}
+            required
           />
           <input
             className="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-500"
@@ -105,6 +107,7 @@ function ContactUs() {
             type="text"
             placeholder="Your Mobile Number"
             value={formData.mobile}
+            required
           />
           <input
             className="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-500"
@@ -114,6 +117,7 @@ function ContactUs() {
             type="text"
             placeholder="Subject"
             value={formData.subject}
+            required
           />
           <textarea
             className="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-500"
@@ -123,6 +127,7 @@ function ContactUs() {
             placeholder="Message"
             rows="4"
             value={formData.message}
+            required
           ></textarea>
           <button
             className="bg-sky-600 text-white py-3 px-5 rounded-full text-base md:text-lg hover:bg-sky-700"
@@ -131,7 +136,6 @@ function ContactUs() {
             Submit
           </button>
         </form>
-        {/* Display notification message */}
         {notification && (
           <p className="mt-4 text-center text-lg font-semibold text-green-600">
             {notification}

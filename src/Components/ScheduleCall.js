@@ -24,7 +24,7 @@ function ScheduleCall() {
             href={`https://wa.me/${phoneNumber}?text=${message}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-sky-600 text-white py-3 px-5 rounded-full text-base md:text-lg hover:bg-sky-700 transition-transform duration-200 transform hover:scale-105 max-w-fit"
+            className="bg-sky-600 text-white py-3 px-5 rounded-full text-sm md:text-base hover:bg-sky-700 transition-transform duration-200 transform hover:scale-105 max-w-fit"
           >
             Let’s Talk Now!
           </a>

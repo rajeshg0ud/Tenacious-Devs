@@ -8,7 +8,6 @@ import {
 } from "react-icons/fa";
 
 function WhyUs() {
-  // Define your services with their respective icons
   const services = [
     {
       name: "Custom Website Development",
