@@ -15,7 +15,7 @@ function NavBar() {
         {/* <h1 className=" hidden md:block text-base md:text-2xl carter-one-regular text-sky-600 brightness-110">
           Tenacious <span className="text-black">Devs</span>
         </h1> */}
-        <img src={tenacious} alt="logo" className="max-w-44" />
+        <img src={tenacious} alt="logo" className="max-w-44 hidden md:block " />
       </div>
       <div className=" mx-auto md:mx-0 flex space-x-5 md:space-x-14 font-semibold vollkorn">
         <h1
