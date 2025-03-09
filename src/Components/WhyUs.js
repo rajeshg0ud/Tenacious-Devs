@@ -59,7 +59,7 @@ function WhyUs() {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center bg-white p-8   rounded-xl shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl"
+                className="flex flex-col items-center bg-white p-8  cursor-pointer  rounded-xl shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl"
               >
                 <img
                   src={service.image}
