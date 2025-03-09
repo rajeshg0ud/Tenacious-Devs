@@ -40,8 +40,11 @@ function WhyUs() {
   ];
 
   return (
-    <div id="Services" className="flex flex-col items-center p-12 bg-gray-100">
-      <div className="max-w-6xl mb-7 md:mb-0">
+    <div
+      id="Services"
+      className="  bg-gray-100  mx-auto items-center p-8 py-20 md:px-24"
+    >
+      <div className=" mb-7 md:mb-0 ">
         <h2 className="text-xl md:text-3xl font-bold mb-6 text-left">
           Why Choose Us? Elevate Your Digital Presence.
         </h2>
@@ -51,23 +54,27 @@ function WhyUs() {
           business forward. Our mission? To create digital solutions that not
           only stand out but deliver lasting results.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {services.map((service, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center bg-white p-8 rounded-xl shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl"
-            >
-              <img
-                src={service.image}
-                alt={service.name}
-                className="w-full h-40 object-cover rounded-md mb-5"
-              />
-              <h3 className="text-xl font-bold text-gray-800 text-center mb-3">
-                {service.name}
-              </h3>
-              <p className="text-gray-600 text-center">{service.description}</p>
-            </div>
-          ))}
+        <div className="flex justify-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl  ">
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-center bg-white p-8   rounded-xl shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl"
+              >
+                <img
+                  src={service.image}
+                  alt={service.name}
+                  className="w-full h-[222px] object-cover rounded-md mb-5"
+                />
+                <h3 className="text-xl font-bold text-gray-800 text-center mb-3">
+                  {service.name}
+                </h3>
+                <p className="text-gray-600 text-center">
+                  {service.description}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
