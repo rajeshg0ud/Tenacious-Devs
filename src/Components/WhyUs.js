@@ -64,7 +64,7 @@ function WhyUs() {
                 <img
                   src={service.image}
                   alt={service.name}
-                  className="w-full h-[222px] object-cover rounded-md mb-5"
+                  className="w-full h-[202px] object-cover rounded-md mb-5"
                 />
                 <h3 className="text-xl font-bold text-gray-800 text-center mb-3">
                   {service.name}
