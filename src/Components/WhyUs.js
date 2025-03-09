@@ -3,7 +3,7 @@ import GRAPHICDESIGN from "../Assets/GRAPHICDESIGN.png";
 import WEBDEV from "../Assets/WEBDEV.png";
 import WEBREVAMP from "../Assets/WEBREVAMP.png";
 import CUSTOMSOFT from "../Assets/CUSTOMSOFT.png";
-import UIUXw from "../Assets/UIUXw.png";
+import UIUX from "../Assets/UIUX.png";
 
 function WhyUs() {
   const services = [
@@ -21,7 +21,7 @@ function WhyUs() {
     },
     {
       name: "UI/UX Design",
-      image: UIUXw,
+      image: UIUX,
       description:
         "Engaging and user-friendly interfaces designed for seamless digital experiences.",
     },
