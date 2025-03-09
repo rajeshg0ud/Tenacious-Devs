@@ -66,10 +66,10 @@ function WhyUs() {
                   alt={service.name}
                   className="w-full h-[202px] object-cover rounded-md mb-5"
                 />
-                <h3 className="text-xl font-bold text-gray-800 text-center mb-3">
+                <h3 className=" text-base md:text-lg font-bold text-gray-800 text-center mb-3">
                   {service.name}
                 </h3>
-                <p className="text-gray-600 text-center">
+                <p className=" text-base md:text-lg text-gray-600 text-center">
                   {service.description}
                 </p>
               </div>
