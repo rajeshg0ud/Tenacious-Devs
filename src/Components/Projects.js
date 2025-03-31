@@ -1,6 +1,6 @@
 import React from "react";
 import NavikOnlineImg from "../Assets/project/Navikonline.png";
-import SwiggyImg from "../Assets/project/swiggy.png";
+import manmeetPortfolio from "../Assets/project/manmeetPortfolio.png";
 
 function Projects() {
   return (
@@ -29,6 +29,31 @@ function Projects() {
                     <a
                       className="bg-sky-600 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-sky-700"
                       href="https://www.navikonline.in/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Visit
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex-shrink-0 w-full max-w-[549px] bg-gray-100 cursor-pointer rounded-lg">
+              <div className="p-4">
+                <div className="text-xl text-center md:text-start font-semibold mb-2">
+                  Manmeet Portfolio
+                </div>
+                <div className="relative group">
+                  <img
+                    className="w-[95%] h-auto rounded-lg transition-transform duration-300 ease-in-out transform group-hover:scale-105  group-hover:brightness-50"
+                    src={manmeetPortfolio}
+                    alt="Manmeet Portfolio"
+                  />
+                  <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                    <a
+                      className="bg-sky-600 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-sky-700"
+                      href="https://missmanmeetgill.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
