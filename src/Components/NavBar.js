@@ -1,6 +1,6 @@
 import React from "react";
 import tenacious from "../Assets/Tenacious.png";
-import tenaciousfav from "../Assets/Tenacious-fav.png";
+import tenaciousfav from "../Assets/Tenacious-favv.png";
 
 function NavBar() {
   const scrollDownTo = (sectionId) => {
@@ -18,15 +18,15 @@ function NavBar() {
           Tenacious <span className="text-black">Devs</span>
         </h1> */}
         <img
-          src={tenacious}
+          src={tenaciousfav}
           alt="logo"
-          className="max-w-44  hidden md:block "
+          className="max-w-20  hidden md:block "
         />
-        <img
+        {/* <img
           src={tenaciousfav}
           alt="logo"
           className="max-w-10 block  md:hidden"
-        />
+        /> */}
       </div>
       <div className=" mx-auto md:mx-0 flex space-x-5 md:space-x-14 font-semibold vollkorn">
         <h1
